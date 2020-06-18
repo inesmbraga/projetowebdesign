@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Evogria;
+  src: url("Evogria.otf");
+  url("Evogria.otf"); 
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
